@@ -158,14 +158,21 @@
         <section id="book-a-table" class="reservation">
           <h2 class="reservation__title">Book a table</h2>
           <form action="" class="reservation__form">
-            <fieldset class="form__fieldset"></fieldset>
-            <h3 class="form__fieldset"></h3>
-            <h3 class="form__label"></h3>
-          </div>
+            <fieldset class="form__fieldset">
+              <p class="form__label">Name *</p><input class=form__input type="text" value="" placeholder="Name Surname" required/>
+              <p class="form__label">Number of guests *</p><input class=form__input type="number" value="" placeholder="1-8" required />
+              <p class="form__label">Date & time *</p><input class=form__input type="date" value="" placeholder="--:-- --" required />
+              <p class="form__label">Your email *</p><input class=form__input type="email"value="" placeholder="email@email.com" required />
+              <button class="form__button" type="submit">Book a table</button>
+              <input type="checkbox" required> 
+
+            </fieldset>
+          </form>
+          </section>
 
 
 
-        </section>
+        
 
         <section id="contacts" class="about">
           <h2 class="about__title">About the coffee shop</h2>
