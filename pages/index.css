@@ -59,7 +59,7 @@ margin: 28px 0 0 80px;
   right: 5px;
   position: absolute;
 }
-.header_span-accent {
+.header__span-accent {
   font-style: italic;
   color: #2f80ed;
   margin-bottom: 15px;
