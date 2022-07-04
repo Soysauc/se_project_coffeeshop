@@ -1,35 +1,33 @@
-.menu{
-background: #0a2750 url(../images/background_menu.svg) no-repeat center/cover;
-padding: 100px 0 0 0;
+.menu {
+  background: #0a2750 url(../images/background_menu.svg) no-repeat center/cover;
+  padding: 100px;
 }
-.menu__title{
-max-width: 780px;
-font-family: Inter;
-font-style: normal;
-font-weight: 500;
-font-size: 44px;
-line-height: 52px;
-text-align: center;
-margin: 0 auto;
-color: #fff;
-/* padding: 100px 0 0 0; */
-margin-bottom: 24px; 
+.menu__title {
+  max-width: 780px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  text-align: center;
+  margin: 0 auto;
+  color: #fff;
+  margin-bottom: 24px;
 }
-.menu__subtitle{
-max-width: 780px;
-text-align: center;
-font-family: Noto serif;
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 30px;
-margin: 0 auto;
-color: #fff;
+.menu__subtitle {
+  max-width: 780px;
+  text-align: center;
+  font-family: "Noto serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0 auto 100px;
+  color: #fff;
 }
-.menu__cards{
-display:flex;
-flex-wrap: wrap;
-justify-content: center;
-gap:100px;
-
+.menu__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 100px;
 }
