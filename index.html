@@ -7,7 +7,7 @@
     <meta name="author" content="Students of Practicum" />
     <meta name="keywords" content="Scratch, HTML, CSS" />
     <title>Practicum Coffee Shop Library</title>
-    <link rel="stylesheet" href="./vendor/normalize.css" />
+    <!-- <link rel="stylesheet" href="./vendor/normalize.css" /> -->
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -56,12 +56,12 @@
           alt="Illustration 'Inside the library'"
         />
         <div class="header__footer">
-          <div class="header__paragraph">
-            <div>Hours:</div>
-            <div>Monday-Friday (10:00-19:00)</div>
-            <div>Saturday-Sunday (11:00-18:00)</div>
+          <div class="header__hours">
+            <p class="header__paragraph">Hours:</p>
+            <p class="header__paragraph">Monday-Friday (10:00-19:00)</p>
+            <p class="header__paragraph">Saturday-Sunday (11:00-18:00)</p>
           </div>
-          <p class="header__address">
+          <p class="header__paragraph">
             200 Success Avenue, The Town of Practicum
           </p>
         </div>
@@ -177,9 +177,9 @@
           </ul>
         </section>
 
-        <section id="book-a-table" class="reservation form">
+        <section id="book-a-table" class="reservation">
           <h2 class="reservation__title">Book a table</h2>
-          <form class="reservation__form">
+          <form class="reservation__form form">
             <fieldset class="form__fieldset">
               <label class="form__label">Name *</label>
               <input
@@ -194,6 +194,7 @@
                 class="form__input"
                 type="number"
                 value=""
+                min="1"
                 max="8"
                 placeholder="1-8"
                 required
@@ -238,7 +239,7 @@
               cups!
             </p>
             <div class="about__circle"></div>
-            <div class="about__circle about__circle-animation-blurred"></div>
+            <div class="about__circle about__circle_animation_blurred"></div>
           </div>
         </section>
       </main>
