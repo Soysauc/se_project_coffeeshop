@@ -55,8 +55,8 @@
   position: absolute;
   bottom: 40px;
 }
-.header__hours {
-}
+/* .header__hours { */
+/* } */
 
 .header__paragraph {
   color: #6f6f6f;
@@ -67,5 +67,5 @@
   line-height: 20px;
   margin: 0;
 }
-.header__paragraph:last-child {
-}
+/* .header__paragraph:last-child { */
+/* } */
