@@ -34,7 +34,7 @@
   color: #ffffff;
   border-radius: 4px;
   margin: 0 0 32px 0;
-  transition: color 0.25s ease-in-out;
+  transition: opacity 0.25s ease-in-out;
   border: none;
   cursor: pointer;
 }
